@@ -1,0 +1,48 @@
+{
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "editor.formatOnSaveMode": "modifications",
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.json": "json"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.advanced": {
+
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "python": false,
+    "elixir": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "vscode-neovim.compositeKeys": {},
+  "vscode-neovim.neovimInitVimPaths.linux": "/Users/m.capodacqua/.config/nvim_vscode/init.lua",
+  "redhat.telemetry.enabled": false,
+  "editor.lineNumbers": "relative",
+  "terminal.integrated.suggest.enabled": true,
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/m.capodacqua/.config/nvim_vscode/init.lua"
+  
+}
